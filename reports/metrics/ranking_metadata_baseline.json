@@ -1,0 +1,100 @@
+{
+  "protocol": "original full triple retrieval among same-split controlled candidates; original guaranteed present",
+  "candidates_per_query": 100,
+  "feature_version": "metadata_baseline",
+  "validation_selection_objective": "Hit@5 + 0.05*diversity@5",
+  "validation_search": [
+    {
+      "alpha": 1.0,
+      "lambda": 1.0,
+      "hit_at_5": 0.12,
+      "mrr_at_5": 0.052333333333333336,
+      "diversity_at_5": 0.6575000000000002,
+      "queries": 100
+    },
+    {
+      "alpha": 1.0,
+      "lambda": 0.9,
+      "hit_at_5": 0.09,
+      "mrr_at_5": 0.03916666666666666,
+      "diversity_at_5": 0.9145,
+      "queries": 100
+    },
+    {
+      "alpha": 1.0,
+      "lambda": 0.7,
+      "hit_at_5": 0.06,
+      "mrr_at_5": 0.029166666666666664,
+      "diversity_at_5": 1.0,
+      "queries": 100
+    },
+    {
+      "alpha": 0.75,
+      "lambda": 1.0,
+      "hit_at_5": 0.12,
+      "mrr_at_5": 0.051833333333333335,
+      "diversity_at_5": 0.6525000000000002,
+      "queries": 100
+    },
+    {
+      "alpha": 0.75,
+      "lambda": 0.9,
+      "hit_at_5": 0.07,
+      "mrr_at_5": 0.03083333333333333,
+      "diversity_at_5": 0.9575,
+      "queries": 100
+    },
+    {
+      "alpha": 0.75,
+      "lambda": 0.7,
+      "hit_at_5": 0.06,
+      "mrr_at_5": 0.026166666666666668,
+      "diversity_at_5": 1.0,
+      "queries": 100
+    },
+    {
+      "alpha": 0.5,
+      "lambda": 1.0,
+      "hit_at_5": 0.06,
+      "mrr_at_5": 0.029500000000000002,
+      "diversity_at_5": 0.645,
+      "queries": 100
+    },
+    {
+      "alpha": 0.5,
+      "lambda": 0.9,
+      "hit_at_5": 0.06,
+      "mrr_at_5": 0.025666666666666667,
+      "diversity_at_5": 0.9159999999999999,
+      "queries": 100
+    },
+    {
+      "alpha": 0.5,
+      "lambda": 0.7,
+      "hit_at_5": 0.06,
+      "mrr_at_5": 0.023166666666666665,
+      "diversity_at_5": 1.0,
+      "queries": 100
+    }
+  ],
+  "chosen": {
+    "alpha": 1.0,
+    "lambda": 1.0,
+    "hit_at_5": 0.12,
+    "mrr_at_5": 0.052333333333333336,
+    "diversity_at_5": 0.6575000000000002,
+    "queries": 100
+  },
+  "test_baseline": {
+    "hit_at_5": 0.14,
+    "mrr_at_5": 0.06766666666666667,
+    "diversity_at_5": 0.6755,
+    "queries": 100
+  },
+  "test_selected": {
+    "hit_at_5": 0.14,
+    "mrr_at_5": 0.06766666666666667,
+    "diversity_at_5": 0.6755,
+    "queries": 100
+  }
+}

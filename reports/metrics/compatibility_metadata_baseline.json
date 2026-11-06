@@ -1,0 +1,85 @@
+{
+  "feature_version": "metadata_baseline",
+  "protocol": "project triples with synthetic same-slot negatives",
+  "counts": {
+    "train": 15944,
+    "validation": 534,
+    "test": 13188
+  },
+  "validation_search": [
+    {
+      "family": "logistic_regression",
+      "parameter": 0.1,
+      "validation_auc": 0.578630644278921,
+      "threshold": 0.25,
+      "seconds": 1.0401660999923479
+    },
+    {
+      "family": "logistic_regression",
+      "parameter": 1.0,
+      "validation_auc": 0.5793039599377182,
+      "threshold": 0.25,
+      "seconds": 1.0488542999955826
+    },
+    {
+      "family": "logistic_regression",
+      "parameter": 10.0,
+      "validation_auc": 0.5795143710810924,
+      "threshold": 0.25,
+      "seconds": 1.0405675999936648
+    },
+    {
+      "family": "random_forest",
+      "parameter": 8,
+      "validation_auc": 0.5709716786601019,
+      "threshold": 0.45000000000000007,
+      "seconds": 5.2472387999878265
+    },
+    {
+      "family": "random_forest",
+      "parameter": 16,
+      "validation_auc": 0.5832596894331523,
+      "threshold": 0.42500000000000004,
+      "seconds": 8.769622799998615
+    },
+    {
+      "family": "random_forest",
+      "parameter": null,
+      "validation_auc": 0.5623307943722033,
+      "threshold": 0.275,
+      "seconds": 21.776760899985675
+    }
+  ],
+  "test": {
+    "logistic_regression": {
+      "auc": 0.5763910220125482,
+      "f1": 0.6706417699670485,
+      "accuracy": 0.5225204731574158,
+      "confusion_matrix": [
+        [
+          480,
+          6114
+        ],
+        [
+          183,
+          6411
+        ]
+      ]
+    },
+    "random_forest": {
+      "auc": 0.5775987839792225,
+      "f1": 0.6696516894882074,
+      "accuracy": 0.5188808007279345,
+      "confusion_matrix": [
+        [
+          412,
+          6182
+        ],
+        [
+          163,
+          6431
+        ]
+      ]
+    }
+  }
+}

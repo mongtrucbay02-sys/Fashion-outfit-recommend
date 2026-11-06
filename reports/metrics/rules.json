@@ -1,0 +1,23 @@
+{
+  "apriori": {
+    "seconds": 0.10402379999868572,
+    "itemsets": 153,
+    "rules": 137,
+    "validation_antecedent_coverage": 1.0,
+    "test_antecedent_coverage": 0.9968152866242038
+  },
+  "fpgrowth": {
+    "seconds": 0.18040219999966212,
+    "itemsets": 153,
+    "rules": 137,
+    "validation_antecedent_coverage": 1.0,
+    "test_antecedent_coverage": 0.9968152866242038
+  },
+  "same_frequent_itemsets": true,
+  "train_transactions": 7972,
+  "settings": {
+    "min_support": 0.005,
+    "min_confidence": 0.15,
+    "max_len": 3
+  }
+}

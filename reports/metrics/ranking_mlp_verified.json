@@ -1,0 +1,101 @@
+{
+  "protocol": "original full triple retrieval among same-split controlled candidates; original guaranteed present",
+  "candidates_per_query": 100,
+  "feature_version": "image_f1079f79e3dd",
+  "validation_selection_objective": "Hit@5 + 0.05*diversity@5",
+  "validation_search": [
+    {
+      "alpha": 1.0,
+      "lambda": 1.0,
+      "hit_at_5": 0.28,
+      "mrr_at_5": 0.1343333333333333,
+      "diversity_at_5": 0.7180000000000001,
+      "queries": 100
+    },
+    {
+      "alpha": 1.0,
+      "lambda": 0.9,
+      "hit_at_5": 0.25,
+      "mrr_at_5": 0.12449999999999997,
+      "diversity_at_5": 0.7885000000000002,
+      "queries": 100
+    },
+    {
+      "alpha": 1.0,
+      "lambda": 0.7,
+      "hit_at_5": 0.13,
+      "mrr_at_5": 0.09116666666666667,
+      "diversity_at_5": 0.9650000000000003,
+      "queries": 100
+    },
+    {
+      "alpha": 0.75,
+      "lambda": 1.0,
+      "hit_at_5": 0.28,
+      "mrr_at_5": 0.15333333333333332,
+      "diversity_at_5": 0.7320000000000002,
+      "queries": 100
+    },
+    {
+      "alpha": 0.75,
+      "lambda": 0.9,
+      "hit_at_5": 0.25,
+      "mrr_at_5": 0.1455,
+      "diversity_at_5": 0.8115000000000001,
+      "queries": 100
+    },
+    {
+      "alpha": 0.75,
+      "lambda": 0.7,
+      "hit_at_5": 0.17,
+      "mrr_at_5": 0.12033333333333333,
+      "diversity_at_5": 0.9905000000000002,
+      "queries": 100
+    },
+    {
+      "alpha": 0.5,
+      "lambda": 1.0,
+      "hit_at_5": 0.23,
+      "mrr_at_5": 0.1275,
+      "diversity_at_5": 0.732,
+      "queries": 100
+    },
+    {
+      "alpha": 0.5,
+      "lambda": 0.9,
+      "hit_at_5": 0.23,
+      "mrr_at_5": 0.128,
+      "diversity_at_5": 0.834,
+      "queries": 100
+    },
+    {
+      "alpha": 0.5,
+      "lambda": 0.7,
+      "hit_at_5": 0.16,
+      "mrr_at_5": 0.11416666666666667,
+      "diversity_at_5": 0.9965,
+      "queries": 100
+    }
+  ],
+  "chosen": {
+    "alpha": 0.75,
+    "lambda": 1.0,
+    "hit_at_5": 0.28,
+    "mrr_at_5": 0.15333333333333332,
+    "diversity_at_5": 0.7320000000000002,
+    "queries": 100
+  },
+  "test_baseline": {
+    "hit_at_5": 0.14,
+    "mrr_at_5": 0.07916666666666666,
+    "diversity_at_5": 0.73,
+    "queries": 100
+  },
+  "test_selected": {
+    "hit_at_5": 0.15,
+    "mrr_at_5": 0.06916666666666667,
+    "diversity_at_5": 0.7305000000000001,
+    "queries": 100
+  },
+  "model_checkpoint": "artifacts\\outfit_ranker\\best.pt"
+}

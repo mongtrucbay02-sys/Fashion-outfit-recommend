@@ -1,0 +1,29 @@
+{
+  "profile": "full",
+  "status": "training_finished_requires_result_review",
+  "steps": [
+    {
+      "name": "embedding",
+      "exit_code": 0
+    },
+    {
+      "name": "detection",
+      "exit_code": 0
+    },
+    {
+      "name": "export_embeddings",
+      "exit_code": 0
+    },
+    {
+      "name": "image_compatibility",
+      "exit_code": 0
+    },
+    {
+      "name": "image_ranking",
+      "exit_code": 0
+    }
+  ],
+  "ui_created": false,
+  "active_step": null,
+  "updated_at": "2026-11-05T12:34:01.579853+00:00"
+}

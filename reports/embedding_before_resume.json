@@ -1,0 +1,28 @@
+{
+  "device": "cpu",
+  "train_items": 30384,
+  "pilot": false,
+  "arguments": {
+    "epochs": 3,
+    "limit": 0,
+    "batch_size": 8,
+    "max_steps": 0,
+    "margin": 1.0,
+    "resume": null,
+    "run_name": "full"
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "steps": 3798,
+      "mean_loss": 0.0311070359858825,
+      "seconds": 14660.589786300028,
+      "validation": {
+        "recall_at_1": 1.0,
+        "recall_at_5": 1.0,
+        "queries": 300,
+        "protocol": "same-item horizontal-flip retrieval, same-slot gallery"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+torch>=2.5
+torchvision>=0.20
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.5
+pyarrow>=18
+mlxtend>=0.23
+huggingface_hub>=0.27
+pillow>=11
+requests>=2.32
+joblib>=1.4
+pyyaml>=6

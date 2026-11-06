@@ -1,0 +1,29 @@
+{
+  "profile": "pilot",
+  "status": "training_finished_requires_result_review",
+  "steps": [
+    {
+      "name": "rules",
+      "exit_code": 0
+    },
+    {
+      "name": "metadata_baseline",
+      "exit_code": 0
+    },
+    {
+      "name": "metadata_ranking",
+      "exit_code": 0
+    },
+    {
+      "name": "embedding",
+      "exit_code": 0
+    },
+    {
+      "name": "detection",
+      "exit_code": 0
+    }
+  ],
+  "ui_created": false,
+  "active_step": null,
+  "updated_at": "2026-11-04T07:10:08.920917+00:00"
+}

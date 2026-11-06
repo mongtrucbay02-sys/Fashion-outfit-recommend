@@ -1,0 +1,17 @@
+.venv/
+data/
+artifacts/
+__pycache__/
+*.pyc
+.env
+.cache/
+logs/
+.env.*
+!.env.example
+*.pt
+*.pth
+*.npz
+*.joblib
+*.zip
+drive_upload_package/
+.ipynb_checkpoints/
